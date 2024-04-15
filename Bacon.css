@@ -308,7 +308,9 @@ img{
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-@media only screen and (min-resolution){    
+
+/* Unsure of how this works.  */
+@media only screen and (min-resolution: 192dpi){    
     img{
             width: 300px;
             max-width: 300px;
